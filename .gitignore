@@ -1,0 +1,12 @@
+# Script-generated logs (the script writes to /var/log/proxmox-vmid-change on
+# the actual PVE node, but ignore any local test logs too)
+*.log
+vmid-change-*.log
+
+# Backup files the script creates as safety copies
+*.conf.bak.*
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*~
